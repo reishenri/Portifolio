@@ -236,42 +236,6 @@ export const mySocials = [
   },
 ];
 
-export const experiences = [
-  {
-    title: "Desenvolvedor de Software",
-    job: "Projetos de Segurança e Defesa",
-    date: "2021-2023",
-    contents: [
-      "Melhorei a segurança das aplicações e desenvolvi novas funcionalidades, seguindo os padrões estabelecidos pela Passive Defense Organization e National Cyberspace Center.",
-      "Desenhei e implementei interfaces de mapas intuitivas usando MapsUI, aprimorando a experiência do usuário e permitindo integração de mapas interativos.",
-      "Desenvolvi aplicações para automação industrial, utilizando C++ e a API Fatek para comunicação com PLC.",
-      "Aprimorei a responsividade e usabilidade das aplicações usando Windows Forms e WPF.",
-      "Executei conversões de XML para SVG usando X-DOM, garantindo visualização de dados dinâmica e eficiente.",
-    ],
-  },
-  {
-    title: "Desenvolvedor Back-End",
-    job: "Montadora de Automóveis",
-    date: "2023-2024",
-    contents: [
-      "Projetei sistemas para ingestão e análise de dados em larga escala, garantindo processamento e armazenamento eficientes.",
-      "Desenvolvi sistemas back-end habilitando comunicação veículo-para-nuvem para telemetria, diagnósticos e controle remoto:",
-      "✅ Implementei APIs seguras, seguindo os padrões de segurança automotiva ISO 26262.",
-      "✅ Garanti privacidade de dados para clientes e parceiros com protocolos compatíveis com a indústria.",
-      "✅ Entreguei recursos remotos como atualizações OTA, rastreamento em tempo real e capacidades de partida remota.",
-    ],
-  },
-  {
-    title: "Desenvolvedor Freelance",
-    job: "Autônomo",
-    date: "2025-Presente",
-    contents: [
-      "Criei um portfólio pessoal usando Three.js, React, Vite e WebAPI para demonstrar expertise técnica.",
-      "Aprimorando continuamente habilidades técnicas e expandindo conhecimento em desenvolvimento web moderno e tecnologias back-end.",
-    ],
-  },
-];
-
 export const reviews = [
   {
     name: "Jack",

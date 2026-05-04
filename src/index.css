@@ -60,9 +60,8 @@ body {
   overflow-x: hidden;
 }
 
-/* Cores personalizadas */
 .text-primary {
-  color: #7c3aed; /* violeta bonito, mude se quiser */
+  color: #7c3aed; 
 }
 
 .border-primary {
@@ -77,7 +76,7 @@ body {
   color: rgba(255, 255, 255, 0.7);
 }
 
-/* Botão com efeito “cosmic” */
+
 .cosmic-button {
   padding: 0.75rem 1.5rem;
   border-radius: 9999px;
@@ -92,7 +91,6 @@ body {
   box-shadow: 0 0 20px rgba(124, 58, 237, 0.6);
 }
 
-/* Bordas e hover */
 .gradient-border {
   border: 1px solid rgba(124, 58, 237, 0.3);
   border-radius: 1rem;

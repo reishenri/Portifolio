@@ -3,30 +3,28 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Landing Page SaaS",
-    description: "Uma bela landing page desenvolvida com React e Tailwind.",
-    image: "../public/assets/projects/game-engine.jpg",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    title: "Em Processo",
+    description: "Sistema sendo desenvolvido",
+    image: "../public/assets/projects/Process.png",
+    tags: ["Linguagens indefinidas"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 2,
-    title: "Dashboard de Análises Orbit",
-    description:
-      "Dashboard interativo de análises com visualização de dados e recursos de filtragem.",
-    image: "../public/assets/projects/accessories.jpg",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+    title: "Em Processo",
+    description: "Sistema sendo desenvolvido",
+    image: "../public/assets/projects/Process.png",
+    tags: ["Linguagens indefinidas"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 3,
-    title: "Plataforma de E-commerce",
-    description:
-      "Plataforma de e-commerce completa com autenticação de usuários e processamento de pagamentos.",
-    image: "../public/assets/projects/elearning.jpg",
-    tags: ["React", "Node.js", "Stripe"],
+    title: "Em Processo",
+    description: "Sistema sendo desenvolvido",
+    image: "../public/assets/projects/Process.png",
+    tags: ["Linguagens indefinidas"],
     demoUrl: "#",
     githubUrl: "#",
   },
@@ -42,9 +40,7 @@ export const Projects = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Aqui estão alguns dos meus projetos recentes. Cada projeto foi
-          cuidadosamente desenvolvido com atenção aos detalhes, desempenho e
-          experiência do usuário.
+          Aqui estão alguns dos meus projetos recentes, desenvolvidos com foco em arquitetura eficiente, performance e uma experiência de usuário consistente.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -103,7 +99,7 @@ export const Projects = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/Henrique-da-Silva-Reis"
+            href="https://github.com/reishenri"
           >
             Confira meu GitHub <ArrowRight size={16} />
           </a>

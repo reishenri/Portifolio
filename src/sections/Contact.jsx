@@ -42,7 +42,7 @@ const Contact = () => {
           from_email: formData.email,
           message: formData.message,
         },
-        "pn-Bw_mS1_QQdofuV"
+        "H4NFhAp7TiCQNJ4TL"
       );
 
       setFormData({ name: "", email: "", message: "" });
@@ -78,11 +78,7 @@ const Contact = () => {
 
       <div className="flex flex-col items-center justify-center max-w-md p-5 mx-auto border border-white/10 rounded-2xl bg-primary">
         <div className="flex flex-col items-start w-full gap-5 mb-10">
-          <h2 className="text-heading">Vamos Conversar</h2>
-          <p className="font-normal text-neutral-400">
-            Seja para construir um novo site, melhorar sua plataforma existente
-            ou dar vida a um projeto único, estou aqui para ajudar.
-          </p>
+          <h2 className="text-heading">Entre em contato</h2>
         </div>
 
         <form className="w-full" onSubmit={handleSubmit}>
@@ -140,10 +136,9 @@ const Contact = () => {
             type="submit"
             disabled={isLoading}
             className={`w-full px-1 py-3 text-lg text-center rounded-md transition-all
-              ${
-                isLoading
-                  ? "opacity-50 cursor-not-allowed"
-                  : "cursor-pointer bg-radial from-lavender to-royal hover-animation"
+              ${isLoading
+                ? "opacity-50 cursor-not-allowed"
+                : "cursor-pointer bg-radial from-lavender to-royal hover-animation"
               }`}
           >
             {isLoading ? "Enviando..." : "Enviar"}
