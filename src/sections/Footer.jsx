@@ -15,7 +15,7 @@ const Footer = () => {
           </a>
         ))}
       </div>
-      <p>© 2025 Ali. All rights reserved.</p>
+      <p>© Desenvolvido por Henrique da Silva Reis.</p>
     </section>
   );
 };

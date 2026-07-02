@@ -1,8 +1,23 @@
 import { FlipWords } from "./FlipWords";
 import { motion } from "framer-motion";
 
+import {
+  FaGithub,
+  FaLinkedin,
+  FaInstagram,
+} from "react-icons/fa";
+
+import {
+  HiOutlineMail
+} from "react-icons/hi";
+
 const HeroText = () => {
-  const words = ["Seguro", "Moderno", "Escalável"];
+  const words = [
+    "Java",
+    "Spring Boot",
+    "APIs REST",
+    "Soluções IoT",
+  ];
   const variants = {
     hidden: { opacity: 0, x: -50 },
     visible: { opacity: 1, x: 0 },
@@ -12,7 +27,7 @@ const HeroText = () => {
       {/* Desktop View */}
       <div className="flex-col hidden md:flex c-space">
         <motion.h1
-          className="text-4xl font-medium"
+          className="text-3xl font-medium"
           variants={variants}
           initial="hidden"
           animate="visible"
@@ -28,7 +43,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.2 }}
           >
-            Desenvolvedor Full stack <br />
+            Desenvolvedor Backend <br />
           </motion.p>
           <motion.div
             variants={variants}
@@ -38,63 +53,44 @@ const HeroText = () => {
           >
             <FlipWords
               words={words}
-              className="font-black text-white text-8xl"
+              className="font-black text-white text-6xl"
             />
           </motion.div>
-          <motion.p
-            className="text-4xl font-medium text-neutral-300"
+          <motion.div
+            className="flex items-center gap-5 mt-6"
             variants={variants}
             initial="hidden"
             animate="visible"
             transition={{ delay: 1.8 }}
           >
-            Soluções Web
-          </motion.p>
+            <a
+              href="https://github.com/reishenri"
+              target="_blank"
+              rel="noreferrer"
+              className="text-neutral-400 hover:text-white transition-all duration-300 hover:scale-120"
+            >
+              <FaGithub size={28}/>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/hsilvareis"
+              target="_blank"
+              rel="noreferrer"
+              className="text-neutral-400 hover:text-white transition-all duration-300 hover:scale-120"
+            >
+              <FaLinkedin size={28}/>
+            </a>
+
+            <a
+              href="mailto:reishenrique261@gmail.com"
+              className="text-neutral-400 hover:text-white transition-all duration-300 hover:scale-120"
+            >
+              <HiOutlineMail size={28}/>
+            </a>
+          </motion.div>
         </div>
       </div>
 
-      <div className="flex- flex-col space-y-6 md:hidden">
-        <motion.p
-          className="text-4xl font-medium"
-          variants={variants}
-          initial="hidden"
-          animate="visible"
-          transition={{ delay: 1 }}
-        >
-          Olá, eu sou o Henrique
-        </motion.p>
-        <div>
-          <motion.p
-            className="text-5xl font-black text-neutral-300"
-            variants={variants}
-            initial="hidden"
-            animate="visible"
-            transition={{ delay: 1.2 }}
-          >
-            Construindo
-          </motion.p>
-          <motion.div
-            variants={variants}
-            initial="hidden"
-            animate="visible"
-            transition={{ delay: 1.5 }}
-          >
-            <FlipWords
-              words={words}
-              className="font-bold text-white text-7xl"
-            />
-          </motion.div>
-          <motion.p
-            className="text-4xl font-black text-neutral300"
-            variants={variants}
-            initial="hidden"
-            animate="visible"
-            transition={{ delay: 1.8 }}
-          >
-            Aplicações Web
-          </motion.p>
-        </div>
-      </div>
     </div>
   );
 };
