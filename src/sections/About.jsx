@@ -1,4 +1,5 @@
-import { Server, Code, User } from "lucide-react";
+
+import { Server, Code, Database, Cpu } from "lucide-react";
 
 const About = () => {
   return (
@@ -7,7 +8,7 @@ const About = () => {
       {" "}
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-          Sobre <span className="text-primary"> Mim</span>
+          Sobre
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -32,7 +33,7 @@ const About = () => {
                 href="/Curriculo_Henrique_Reis.pdf"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
-                Baixar CV
+                Curriculo
               </a>
             </div>
           </div>
@@ -54,7 +55,9 @@ const About = () => {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <User className="h-6 w-6 text-primary" />
+
+                  <Database className="h-6 w-6 text-primary" />
+
                 </div>
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Banco de Dados</h4>
@@ -67,7 +70,9 @@ const About = () => {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Server className="h-6 w-6 text-primary" />
+
+                  <Cpu className="h-6 w-6 text-primary" />
+
                 </div>
 
                 <div className="text-left">
